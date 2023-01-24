@@ -11,11 +11,11 @@ const Nav = () => {
                 {/* <img className='nav_logo-img' alt="logo" src={logo} /> */}
                 <h1 className='nav_logo-txt'>SO HYPNOTIZING</h1>
             </div>
-            {/* <div className="nav_links-section">
-                <a className="nav-link" href="mailto:newbiz@phoenixagency.ae"><MdEmail className="nav-link_ico" /></a>
+            <div className="nav_links-section">
+                {/* <a className="nav-link" href="mailto:newbiz@phoenixagency.ae"><MdEmail className="nav-link_ico" /></a> */}
                 <a className="nav-link" href="#j"><AiFillInstagram className="nav-link_ico" /></a>
                 <a className="nav-link" href="#j"><RiLinkedinFill className="nav-link_ico" /></a>
-            </div> */}
+            </div>
 
         </nav>
     )
