@@ -8,8 +8,8 @@ const Nav = () => {
     return (
         <nav className="nav">
             <div className="nav_logo-section">
-                <img className='nav_logo-img' alt="logo" src={logo} />
-                <h1 className='nav_logo-txt'>PHEONIX</h1>
+                {/* <img className='nav_logo-img' alt="logo" src={logo} /> */}
+                <h1 className='nav_logo-txt'>SO HYPNOTIZING</h1>
             </div>
             {/* <div className="nav_links-section">
                 <a className="nav-link" href="mailto:newbiz@phoenixagency.ae"><MdEmail className="nav-link_ico" /></a>

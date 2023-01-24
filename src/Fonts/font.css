@@ -12,3 +12,7 @@
     font-family: SFRREG;
     src: url('./SFPRODISPLAYREGULAR.OTF');
 }
+@font-face {
+    font-family: SUISREG;
+    src: url('./SuisseIntl-Regular.otf');
+}
