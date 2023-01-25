@@ -73,6 +73,7 @@
 
     .home-c2_ul {
         list-style: none;
+        font-family: SUISREG;
         font-size: 1vw;
     }
 
@@ -80,6 +81,8 @@
         font-weight: bold;
         margin-bottom: 5px;
         opacity: .8;
+        font-family: SFRMED;
+
     }
 
 
@@ -92,10 +95,13 @@
     .home-c2-rs_article {
         margin: 25px;
         font-size: 1vw;
+        font-family: SUISREG;
     }
 
     .home-c2-rs_article_header {
         font-weight: bold;
+        font-family: SFRMED;
+
     }
 
     .home-c2-rs_img {
@@ -199,12 +205,16 @@
     .home-c2_ul {
         list-style: none;
         font-size: 1vw;
+        font-family: SUISREG;
+
     }
 
     .home-c2_list-item__head {
         font-weight: bold;
         margin-bottom: 5px;
         opacity: .8;
+        font-family: SFRMED;
+
     }
 
 
@@ -217,10 +227,12 @@
     .home-c2-rs_article {
         margin: 25px;
         font-size: 1vw;
+        font-family: SUISREG;
     }
 
     .home-c2-rs_article_header {
         font-weight: bold;
+        font-family: SFRMED;
     }
 
     .home-c2-rs_img {
