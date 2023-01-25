@@ -16,6 +16,7 @@
     min-height: 100%;
     z-index: -1;
 }
+
 @media (width > 1300px) {
     .home_content {
         position: relative;
@@ -75,6 +76,7 @@
         list-style: none;
         font-family: SUISREG;
         font-size: 1vw;
+        color: #c4c4c4;
     }
 
     .home-c2_list-item__head {
@@ -82,6 +84,7 @@
         margin-bottom: 5px;
         opacity: .8;
         font-family: SFRMED;
+        color: #FFFFFF;
 
     }
 
@@ -96,10 +99,12 @@
         margin: 25px;
         font-size: 1vw;
         font-family: SUISREG;
+        color: #c4c4c4;
     }
 
     .home-c2-rs_article_header {
         font-weight: bold;
+        color: #FFFFFF;
         font-family: SFRMED;
 
     }
@@ -205,6 +210,7 @@
     .home-c2_ul {
         list-style: none;
         font-size: 1vw;
+        color: #c4c4c4;
         font-family: SUISREG;
 
     }
@@ -214,6 +220,7 @@
         margin-bottom: 5px;
         opacity: .8;
         font-family: SFRMED;
+        color: #FFFFFF'
 
     }
 
@@ -228,11 +235,13 @@
         margin: 25px;
         font-size: 1vw;
         font-family: SUISREG;
+        color: #c4c4c4;
+
     }
 
     .home-c2-rs_article_header {
-        font-weight: bold;
         font-family: SFRMED;
+        color: #FFFFFF'
     }
 
     .home-c2-rs_img {
@@ -280,9 +289,11 @@
 }
 
 @media (width < 800px) {
+   
+
     .home_content {
         position: relative;
-        top: 20vh;
+        top: 25vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -339,7 +350,6 @@
         grid-template-columns: auto auto;
         gap: 30px;
         margin-top: 5vh;
-        padding: 3vw;
     }
 
     .home-c2_ul {
@@ -355,7 +365,7 @@
 
 
     .home-c2-rs_article {
-        margin: 5vh 5vw;
+        margin: 5vh 0;
     }
 
     .home-c2-rs_article_header {
@@ -391,10 +401,10 @@
     }
 
     .home_foot-txt {
-        font-size: 10px;
+        font-size: 16px;
         font-family: SFRREG;
         font-weight: bold;
-        width: 80%;
+        width: 90%;
         margin-top: 20px;
         mix-blend-mode: difference;
         color: white;
