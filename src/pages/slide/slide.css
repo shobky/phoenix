@@ -81,17 +81,18 @@
   /*** RESPONSIVE ***/
   /* MOBILE */
   @media screen and (max-width: 576px) {
-    body::-webkit-scrollbar {
-      width: 0px;
-      background: transparent;
-      -webkit-appearance: none;
-    }
+        /* body::-webkit-scrollbar {
+        width: 0px;
+        background: transparent;
+        -webkit-appearance: none;
+        } */
   }
   @media (width  <800px) {
     .layout .s2 {
         background-color: transparent;
         z-index: 3;
         overflow-y: scroll;
+        margin-top: 70px;
       }
     
   }

@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import './slide.css'
-import Nav from '../../components/nav/Nav'
 import '../home/home.css'
 import video from '../../assets/8f70714b.mp4'
-import txtSvg from '../../assets/pheonix_2.svg'
+import txtSvg from '../../assets/text.jpeg'
 import threeWays from '../../assets/3WAYS.png'
+import trademark from '../../assets/trademark.jpeg'
 import capabilities from '../../assets/capabilities.png'
+import { Link } from 'react-router-dom'
 
 
 const Slide = () => {
@@ -81,12 +82,14 @@ const Slide = () => {
             </video>
             <section className="s1">
                 <div id="hero" className='home_content '>
-                    <img alt="phenix agency" src={txtSvg} className="home_svg-txt" />
+                    <div className="home_text-igms">
+                        <img alt="phenix agency" src={txtSvg} className="home_svg-txt" />
+                        <img alt="phenix agency" src={trademark} className="home_svg-ico" />
+                    </div>
                     <p className="home_foot-txt">
-                        A CREATIVE AGENCY THAT LIVES AT THE INTERSECTION OF CLARITY AND SURPRISE.
-                    </p>
-                    <a href="mailto:newbiz@phoenixagency.ae"
-                        className="home_button">  GET IN TOUCH</a>
+                        INDEPENDENTLY OWNED CREATIVE STUDIO THAT LIVES AT THE INTERSECTION OF SCIENCE
+                        AND VISUAL ARTS, <br /> HYPNOTIZING CUSTOMERS THROUGH MEMORABLE EXPERIENCES KNOWN TO
+                        BUILD LOYALTY LEADING BRANDS</p>
                 </div>
             </section>
             <section className="s2">

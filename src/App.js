@@ -1,16 +1,17 @@
 
 import React from 'react'
+import { Route, Routes } from 'react-router'
 import Nav from './components/nav/Nav'
-import Home from './pages/home/Home'
+import Form from './pages/form/Form'
 import Slide from './pages/slide/Slide'
 
 const App = () => {
     return (
         <>
-            <div style={{ zIndex: " 999" }}>
-                <Nav />
-            </div>
-            <Slide />
+            <Routes>
+                <Route path='/' element={<Slide />} />
+                <Route path='/form' element={<Form />} />
+            </Routes>
         </>
     )
 }
