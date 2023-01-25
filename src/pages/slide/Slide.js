@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './slide.css'
-import '../home/home.css'
+import './home.css'
 import video from '../../assets/8f70714b.mp4'
 import txtSvg from '../../assets/text.jpeg'
 import threeWays from '../../assets/3WAYS.png'
