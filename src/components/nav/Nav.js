@@ -4,10 +4,11 @@ import { RiLinkedinFill } from 'react-icons/ri'
 import { AiFillInstagram } from 'react-icons/ai'
 import './nav.css'
 import { Link } from 'react-router-dom'
+import { FiExternalLink } from 'react-icons/fi'
 
 const Nav = () => {
     return (
-        <nav className="nav">
+        <nav id="header" className="nav">
             <div className="nav_logo-section">
                 {/* <img className='nav_logo-img' alt="logo" src={logo} /> */}
                 <h1 className='nav_logo-txt'>SO HYPNOTIZING</h1>
@@ -19,7 +20,7 @@ const Nav = () => {
                     <a className="nav-link" href="#j"><RiLinkedinFill className="nav-link_ico" /></a>
                 </div>
                 <Link className="nav_button" to='/form'>
-                    GET IN TOUCH</Link>
+                    GET IN TOUCH <FiExternalLink/></Link>
             </div>
 
         </nav>

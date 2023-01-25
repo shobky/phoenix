@@ -48,12 +48,17 @@ const Slide = () => {
                     main.style.transform = 'translateY(-100vh)'
                     next.style.transform = 'translateY(0)'
                     setQty(qty + 1)
+                    document.getElementById('header').classList.add('nav_header__scroll');
+
                 } else if (!scrollDown && qty > 1) {
                     const main = document.querySelector(`section.s${qty - 1}`)
                     const next = document.querySelector(`section.s${qty}`)
                     main.style.transform = 'translateY(0)'
                     next.style.transform = 'translateY(100vh)'
                     setQty(qty - 1)
+                    document.getElementById('header').classList.remove('nav_header__scroll');
+
+
                 }
                 // Scroll progressbar
                 const active = sectionStick.querySelector('.stick.active')
@@ -71,6 +76,32 @@ const Slide = () => {
         // Keep scrollbar in the middle of the viewport
         window.scroll(0, window.screen.height)
     }
+
+    // let startY; // will hold the starting Y position of the touch
+
+    // function handleTouchStart(event) {
+    //     // store the starting Y position of the touch
+    //     startY = event.touches[0].clientY;
+    // }
+
+    // function handleTouchEnd(event) {
+
+    //     const endY = event.changedTouches[0].clientY; // ending Y position of the touch
+
+    //     // calculate the distance moved
+    //     const distance = startY - endY;
+
+    //     // check if the user swiped up or down
+    //     if (distance > 0) {
+    //         // user swiped up
+    //         alert('hi')
+    //         document.getElementById('header').classList.add('nav_header__scroll');
+    //     } else {
+    //         // user swiped down
+    //         document.getElementById('header').classList.remove('nav_header__scroll');
+
+    //     }
+    // }
 
     return (
         <div className="layout">
