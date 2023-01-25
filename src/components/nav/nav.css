@@ -16,7 +16,7 @@
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        padding: 25px 10vw;
+        padding: 20px 7vw 20px 6vw;
         box-sizing: border-box;
         z-index: 2000000000000;
         mix-blend-mode: difference;
@@ -70,7 +70,7 @@
         justify-content: space-between;
         align-items: baseline;
         width: 100%;
-        padding: 20px 5%;
+        padding: 20px  7vw 10px  10vw;
         box-sizing: border-box;
         z-index: 9999999999000000;
         mix-blend-mode: difference;
